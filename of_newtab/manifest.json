@@ -1,0 +1,14 @@
+{
+ "manifest_version": 2,
+ "version":"0.8",
+ "name": "The old-fashioned New Tab",
+  "description": "The old-fashioned New Tab is back.",
+  "background": {
+    "persistent": false,
+    "scripts":["background.js"]
+  },
+  "page_action": {
+  },
+  "permissions":["tabs"]
+}
+
